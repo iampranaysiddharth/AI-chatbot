@@ -1,0 +1,9 @@
+from nltk.chat.util import Chat, reflections
+
+pairs = [
+    ["hi", ["Hello!", "Hi there!"]],
+    ["how are you?", ["I'm good!", "I'm fine!"]]
+]
+
+chatbot = Chat(pairs, reflections)
+chatbot.converse()
